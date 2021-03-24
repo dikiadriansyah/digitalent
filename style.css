@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------ */
+
+header{
+    background-color: #686468;
+width: 100%;
+height: 700px;
+
+}
+
+.back_header{
+    width: 100%;
+    height:700px;
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_company{
+    margin: 35px 75px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.logo_text{
+    color: #FF7424;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    cursor: default;
+}
+
+.logo{
+    color: #FF7424;
+}
+
+.nav_head {
+    width: 560px;
+    height: 40px;
+   margin: 40px 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;   
+    
+}
+
+.btn{
+    background-color: #0838BB;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.header{
+    width: 460px;
+    height: 200px;
+    margin: 0px 0px;
+    color: #fff;
+    font-size: 70px;
+    text-align: justify;
+    line-height: 75px;
+    margin: 70px;
+    
+}
+
+.box_header{
+    width: 71%;
+    height: 60px;
+  border: 1px solid #fff; 
+  margin: auto; 
+border-radius: 10px;
+display: flex;
+padding: 10px;
+
+
+}
+
+.box_header > .column1{
+    margin: 0px 10px;
+}
+
+.column1{
+    background-color: #fff;
+    width: 230px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+padding: 0px 20px;
+    align-items: center;
+}
+
+input{
+    border: 1px solid #fff;
+}
+
+.btn_search {
+    width: 40px;
+    height: 40px;
+    background-color: tomato;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa_search{
+    color: #fff;
+    
+}
+
+/* -------------------------------------- */
+
+main{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+   
+}
+
+.box{
+    width: 80%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.row_left{
+    width: 350px;
+    height: 500px;
+   
+ /* margin-right: 10px; */
+       
+}
+
+.row_right{
+    
+    width: 375px;
+    height: 425px;
+ margin-right: 20%;
+}
+
+.title_main{
+    color: #FF7424;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.subtitle_main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+p{
+    padding: 30px 0px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.row_info{
+    height: 50px;
+   padding: 10px 0px;
+    display: flex;
+   align-items: center; 
+   
+}
+
+.txt_price{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #FF7424;
+    font-weight: 400;
+margin: 0 auto;
+}
+
+.btn_booking{
+    width: 100px;
+    height: 30px;
+    background-color: #FF7424;
+    color: #FFf;
+    border-radius: 10px;
+    border: none;
+}
+/* -------------------------------------- */
+section{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.container{
+    width: 80%;
+    height: 435px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.text_container{
+    width: 380px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-weight: 600;
+}
