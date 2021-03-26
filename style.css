@@ -424,7 +424,7 @@ footer {
   background-color: #ff7424;
   color: white;
 }
-
+/* -------------------------------------- */
 .menu-icon {
   display: none !important;
   color: white;
@@ -441,6 +441,9 @@ footer {
   .menu-icon {
     display: block !important;
   }
+  header {
+    overflow: hidden;
+  }
 }
 @media (max-width: 670px) {
   .header {
@@ -452,5 +455,56 @@ footer {
   .footer-contact {
     display: block;
   }
+  .header {
+    font-size: 64px;
+  }
+  .back_header {
+    width: 100%;
+  }
+  header {
+    overflow: hidden;
+  }
+  .header {
+    text-align: left;
+    width: 50%;
+    height: 50%;
+    line-height: 64px;
+  }
+  .box_header {
+    display: none;
+  }
+  .box {
+    margin: 0 auto;
+  }
+  .row_left {
+    display: none;
+  }
+  .row-right {
+    margin: 0 auto;
+  }
+  /*
+  footer {
+    padding: 40px;
+  }
+  .container-footer {
+    flex-direction: column;
+    padding-right: 250px;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+  .box-footer {
+    width: 100%;
+    text-align: center;
+  }
+  */
+  footer {
+  }
+  .container-footer {
+    flex-direction: column;
+    margin-right: 250px;
+    width: 100%;
+  }
 }
+
 /* style footer end */
