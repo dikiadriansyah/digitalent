@@ -309,121 +309,133 @@ section {
 
 /* style footer start */
 footer {
-  position: relative;
-  padding: 50px 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #f9f8f8;
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-  min-height: 50vh;
+  padding: 30px 0;
+  background-color: lightgrey;
+  font-family: 'Poppins', sans-serif;
 }
 .container-footer {
-  width: 100%;
-  display: flex;
-  margin-top: 30px;
-  justify-content: center;
-  align-items: center;
-  /* border: 1px solid black; */
+  width: 80%;
+  margin: 0 auto;
 }
-.container-footer .footer-contact,
-.container-footer .footer-address {
+.row {
+  
+}
+.container-footer:after,
+.row:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.col1 {
+  width: 20%;
+  float: left;  
+  padding-bottom: 5px;
+  min-height: 209px;
+}
+.col2 {
   width: 30%;
-  display: flex;
-  flex-direction: column;
+  float: left;  
+  min-height: 209px;
 }
-.container-footer .footer-contact .footer-logo {
+.col3 {
+  width: 50%;
+  float: left;
+}
+footer .footer-logo {
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 20px;
 }
-.container-footer .footer-contact .box-footer,
-.container-footer .footer-address .box-footer {
+footer .box-footer {
   position: relative;
   padding: 5px 0;
-  display: flex;
-}
-.container-footer .footer-contact .box-footer .icon,
-.container-footer .footer-address .box-footer .icon {
-  color: gray;
-  display: flex;
-}
-.container-footer .footer-contact .box-footer .text,
-.container-footer .footer-address .box-footer .text {
-  display: flex;
-  margin-left: 10px;
+  display: flex;    
+  color: gray; 
   font-size: 16px;
-  color: gray;
-  flex-direction: column;
-  font-weight: 300;
 }
-.container-footer .footer-contact .box-footer .email-box {
+footer .box-footer .text {
+  margin-left: 25px;
+  font-weight: 300;
+  position: absolute;
+  top: -25px;
+}
+footer .box-footer .email-box {
   padding-top: 10px;
 }
-.container-footer .footer-contact .box-footer input {
+footer .box-footer input,
+footer .box-footer .btn-join {
   height: 35px;
-  width: 100px;
   border-radius: 5px;
   padding: 0 10px;
   outline: none;
-  font-family: "Poppins", sans-serif;
-}
-.container-footer .footer-contact .box-footer .btn-join {
-  height: 35px;
-  width: 60px;
-  border-radius: 5px;
   border: none;
-  padding: 0 10px;
-  background-color: #ff7424;
-  color: white;
-  outline: none;
-  font-family: "Poppins", sans-serif;
 }
-.container-footer .footer-contact .box-footer .btn-join:hover {
+footer .box-footer input {
+  width: 120px;
+}
+footer .box-footer .btn-join {
+  width: 60px;
+  background-color: #FF7424;
+  color: white;
+}
+footer .box-footer .btn-join:hover {
   background-color: #fb9e33;
 }
-.container-footer .footer-service,
-.container-footer .footer-support {
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  /* border: 1px solid black; */
-  font-size: 16px;
-}
-.container-footer .service-title,
-.container-footer .support-title,
-.container-footer .address-title {
+footer .footer-title {
   font-weight: bold;
-  padding: 21px 0 20px 0;
+  padding: 17px 0 20px 0;
 }
-.container-footer .footer-service .service-list li,
-.container-footer .footer-support .support-list li {
-  padding: 5px 0;
+footer .footer-list li {
+  margin-top: 10px;
   color: gray;
+  cursor: pointer;
 }
-.container-footer .footer-address .social-media h3 {
+footer .social-media h5 {
   font-size: 14px;
   font-weight: bold;
-  padding: 20px 0 10px 0;
+  padding-top: 30px;
 }
-.container-footer .footer-address .social-media ul li {
+footer .social-media ul li {
   display: inline-block;
+  margin: 5px 5px 0 0;
 }
-.container-footer .footer-address .social-media li a i {
+footer .social-media li a i{
   width: 30px;
   height: 30px;
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color:  transparent;
+  color: grey;
   border-radius: 50%;
   line-height: 30px;
 }
-.container-footer .footer-address .social-media li a i:hover {
-  background-color: #ff7424;
+footer .social-media li a i:hover{
+  background-color:  #FF7424;
   color: white;
 }
+footer .footer-left p{
+  float: left;
+  color: grey;
+}
+footer .footer-right ul{
+  float: right;
+  padding: 27.5px 0; 
+}
+footer .footer-right ul li{
+  color: grey;
+  display: inline-block;
+  margin-left: 21px;  
+  cursor: pointer;
+}
+footer .footer-right ul li a{
+  display: inline-block;
+}
+footer .footer-right li:hover,
+footer .footer-list li:hover {
+  color:  #FF7424;
+}
+/* style footer end */
+
+
 /* -------------------------------------- */
 .menu-icon {
   display: none !important;
@@ -444,6 +456,20 @@ footer {
   header {
     overflow: hidden;
   }
+
+  footer .col1, footer .col2 {
+    width: 50%;
+    margin-bottom: 20px;
+  } 
+  footer .footer-right ul {
+      text-align: center;
+      float: none;
+      margin-left: -21px;
+  }
+  footer .footer-left p {
+      text-align: center;
+      float: none;
+  }
 }
 @media (max-width: 670px) {
   .header {
@@ -452,9 +478,9 @@ footer {
   .navbar {
     width: 100%;
   }
-  .footer-contact {
+  /* .footer-contact { 
     display: block;
-  }
+  } */
   .header {
     font-size: 64px;
   }
@@ -498,13 +524,51 @@ footer {
     text-align: center;
   }
   */
-  footer {
+  /* footer {
   }
   .container-footer {
     flex-direction: column;
     margin-right: 250px;
     width: 100%;
+  } */
+  footer .col1, footer .col2,
+    footer .col3 {
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    } 
+    footer .col1, footer .col2.address {
+      min-height: 160px;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .box-footer {
+        justify-content: center;
+    }
+    footer .box-footer.contact {
+        margin-bottom: 30px;
+    }
+    footer .box-footer .icon{
+        margin-top: -20px;
+    }
+    footer .footer-logo, .footer-title.address {
+        margin-bottom: 10px;        
+    }
+    footer .box-footer input {
+        width: 150px;
+    }
+    footer .footer-right ul{
+      padding: 0; 
+    }
+    footer .footer-right ul li{
+      margin-left: 10px;  
+    }
+}
+@media (max-width: 410px) {
+  footer .social-media h5 {
+    padding-top: 40px;
   }
 }
 
-/* style footer end */
+
