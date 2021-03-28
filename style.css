@@ -504,6 +504,18 @@ footer .footer-list li:hover {
   header {
     overflow: hidden;
   }
+  .our-service {
+    height: 1000px;
+  }
+  .our-service .container {
+    height: 90%;
+    width: 90%;
+  }
+  .our-service img {
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
 
   footer .col1,
   footer .col2 {
