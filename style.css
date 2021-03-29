@@ -222,8 +222,14 @@ input {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 7px rgb(172, 66, 47);
+  box-shadow: 0 1px rgb(172, 66, 47);
 }
+
+.btn_search:hover{
+background-color: #fb9e33;
+}
+
+
 .btn_search:active {
   box-shadow: none;
   position: relative;
