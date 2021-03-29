@@ -452,55 +452,89 @@ span.fa-long-arrow-right{
 /* photo section end  */
 
 /* bottom section start  */
-.newsletter{
-  text-align: center;
-  width: 60%;
-  margin: 50px auto 100px auto;
+
+
+
+
+.section5{
+  width: 700px;
+  height: 200px;
   background-color: #0838bb;
-  border-radius: 20px;
-  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ margin: 100px auto;
 }
 
-.bottom-wrap{
-  margin: 30px auto;
-  padding: 50px 0 30px 0;
+
+
+.txt_sign{
+  font-size: 40px;
+  color: #fff;
+  padding: 20px 0px;
 }
 
-.bottom-wrap p{
-  width: 30%;
-  margin: 8px auto;
-  font-family: sans-serif;
-  font-size: 12px;
+.txt_subsign{
+  font-size: 15px;
+  color:  #EAEAEA;
+  width: 312px;
+  text-align: center;
+  padding: 10px 0px;
 }
 
-.email{
-  width: 82%;
-  margin: 20px auto;
+.column_input{
+  width: 300px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
 }
 
-.email p{
-  padding: 3px;
-  background-color: white;
-  color: black;
-  font-size: 12px;
-  font-family: sans-serif;
+.column_ikonemail{
+  width: 40px;
+  height: 30px;
+text-align: center;
+
+}
+
+.ikon_email{
+  margin: 5px 0px;
+}
+
+.txt_inputemail{
+  width: 70%;
+  height: 25px;
+  border-radius: 0px 0px 5px 0px;
+  
+}
+
+.btn_email{
+  width: 44px;
+  height: 30px;
+  background-color: #ff7424 ;
+  border: none;
   border-radius: 5px;
 }
 
-span.mail{
-  margin-right: 15px;
-  color: gray;
-  font-size: 15px;
+.ikon_btn_email{
+  color: #fff;
+ width: 18px;
+ height: 15px;
 }
 
-span.send{
-  margin-left: 40px;
-  background-color: #ff7424;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 15px;
+.btn_email:hover{
+background-color: #EC0303;
 }
+
+input{
+  outline: none;
+}
+
+
+
 /* bottom section end  */
 
 /* style footer start */
@@ -766,7 +800,7 @@ footer .footer-list li:hover {
     height: 100px;
     margin-left: 30px;
     padding-bottom: 90px;
-    bottom: 0px;
+  
     display: grid;
     grid-row-gap: 10px;
     width: 80%;
@@ -787,6 +821,27 @@ footer .footer-list li:hover {
   .row-right {
     margin: 0 auto;
   }
+  
+  
+  
+  
+  .section5{
+  width: 100%;
+  height: 300px;
+}
+
+.container{
+  width: 100%;
+}
+
+.txt_sign{
+  text-align: center;
+}
+
+  
+  
+  
+  
   /*
   footer {
     padding: 40px;
