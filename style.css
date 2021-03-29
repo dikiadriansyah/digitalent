@@ -188,7 +188,19 @@ a {
   text-align: justify;
   line-height: 75px;
   margin: 70px;
+  animation: mytxtheader 10s 1;
 }
+
+
+@keyframes mytxtheader{
+  from{
+    font-size: 0px;
+  }
+  to{
+    font-size: 60px;
+  }
+}
+
 .box_header {
   width: 71%;
   height: 60px;
