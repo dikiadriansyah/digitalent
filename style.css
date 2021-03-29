@@ -269,6 +269,19 @@ box-shadow: 0 3px rgb(172, 66, 47);
   color: #fff;
 }
 
+.fa_search:hover {
+    animation: ikonsearch 3s 3;
+}
+
+@keyframes ikonsearch{
+  from{
+    width: 0px;
+  }
+  to{
+    width: 14px;
+  }
+}
+
 /* -------------------------------------- */
 
 .btn_booking {
