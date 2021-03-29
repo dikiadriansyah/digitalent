@@ -541,7 +541,7 @@ animation: arrow 1s 2;
 
 
 .photo-section img:hover{
-width: 25%;
+width: 23%;
 height: 260px;
 cursor: pointer;
 }
