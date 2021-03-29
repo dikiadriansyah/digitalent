@@ -316,6 +316,16 @@ span.stars{
   color: #ff7424;
 }
 
+span.stars:hover{
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove{
+  from{
+  color: #000;
+  }
+}
+
 span.stars-o{
   color: #5b616a;
   font-size: 15px;
