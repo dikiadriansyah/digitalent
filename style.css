@@ -541,17 +541,17 @@ footer .footer-logo {
   padding-bottom: 20px;
 }
 footer .box-footer {
-  position: relative;
+  /* position: relative; */
   padding: 5px 0;
   display: flex;
   color: gray;
   font-size: 16px;
 }
-footer .box-footer .text {
+footer .box-footer .text p{
   margin-left: 25px;
   font-weight: 300;
-  position: absolute;
-  top: -25px;
+  /* position: absolute;
+  top: -25px; */
 }
 footer .box-footer .email-box {
   padding-top: 10px;
@@ -612,12 +612,12 @@ footer .footer-left p {
 }
 footer .footer-right ul {
   float: right;
-  padding: 27.5px 0;
+  /* padding: 27.5px 0; */
 }
 footer .footer-right ul li {
   color: grey;
   display: inline-block;
-  margin-left: 21px;
+  margin-left: 42px;
   cursor: pointer;
 }
 footer .footer-right ul li a {
@@ -719,13 +719,14 @@ footer .footer-list li:hover {
     margin-bottom: 20px;
   }
   footer .footer-right ul {
-    text-align: center;
+    /* text-align: center; */
     float: none;
-    margin-left: -21px;
+    margin-left: -42px;
   }
   footer .footer-left p {
-    text-align: center;
+    /* text-align: center; */
     float: none;
+    padding: 5px 0;
   }
 }
 @media (max-width: 670px) {
@@ -827,10 +828,10 @@ footer .footer-list li:hover {
     justify-content: center;
   }
   footer .box-footer.contact {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
   footer .box-footer .icon {
-    margin-top: -20px;
+    /* margin-top: -20px; */
   }
   footer .footer-logo,
   .footer-title.address {
@@ -843,7 +844,7 @@ footer .footer-list li:hover {
     padding: 0;
   }
   footer .footer-right ul li {
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
 }
 @media (max-width: 410px) {
