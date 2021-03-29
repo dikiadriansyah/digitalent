@@ -305,7 +305,7 @@ box-shadow: 0 3px rgb(172, 66, 47);
 .sec_img_exclusive:hover {
     border: 1px solid;
     z-index: 1;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 5px 10px #888888;
 }
 
 
