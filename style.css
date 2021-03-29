@@ -470,11 +470,18 @@ animation: arrow 1s 2;
 
 .service:hover {
     cursor: pointer;
-    border: #EAEAEA;
-    box-shadow: 5px 5px 10px #888888;
+  
+  animation: imgservice 4s 5;
    
 }
 
+
+@keyframes imgservice{
+  to{
+    border: #EAEAEA;
+    box-shadow: 5px 5px 10px #888888;
+  }
+}
 
 .service img{
   display: inline-block;
