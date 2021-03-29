@@ -405,6 +405,21 @@ span.fa-long-arrow-right{
 }
 
 
+span.fa-long-arrow-right:hover{
+  position: relative;
+animation: arrow 1s 2;
+}
+
+@keyframes arrow{
+  from{
+    left: 0px;
+  }
+
+  to{
+    left: 10px;
+  }
+
+}
 
 
 .book-btn p{
