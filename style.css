@@ -149,6 +149,11 @@ header {
 ul {
   list-style-type: none;
 }
+
+li :hover{
+  color: #fb9e33;
+}
+
 header .back_header .navbar .nav_head ul li {
   display: inline-block;
   margin: 0px 30px;
@@ -209,7 +214,23 @@ a {
   border-radius: 10px;
   display: flex;
   padding: 10px;
+  
+  animation: myborder 10s 1;
+  animation-fill-mode: forwards;
+  position: relative;
+  
 }
+
+
+@keyframes myborder{
+  from{
+    top: 0px;
+  }
+  to{
+    top: 30px;
+  }
+}
+
 .box_header > .column1 {
   margin: 0px 10px;
 }
