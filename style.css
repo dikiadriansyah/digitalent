@@ -477,6 +477,12 @@ animation: arrow 1s 2;
   border-radius: 5px;
 }
 
+
+.testi-section img:hover{
+  width: 77%;
+  cursor: pointer;
+}
+
 .testi-section{
   margin-top: 100px;
   margin-bottom: 100px;
