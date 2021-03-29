@@ -501,7 +501,13 @@ animation: arrow 1s 2;
 .testi-section img:hover{
   width: 77%;
   cursor: pointer;
+   border: #EAEAEA;
+    box-shadow: 5px 5px 10px #888888;
+  
 }
+
+
+
 
 
 .testi-section{
