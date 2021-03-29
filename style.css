@@ -448,6 +448,15 @@ animation: arrow 1s 2;
   margin-right: 35px;
 }
 
+
+.service:hover {
+    cursor: pointer;
+    border: #EAEAEA;
+    box-shadow: 5px 5px 10px #888888;
+   
+}
+
+
 .service img{
   display: inline-block;
   width: 100%;
@@ -459,6 +468,12 @@ animation: arrow 1s 2;
   font-size: 25px;
   font-family: sans-serif;
 }
+
+
+.service h4:hover {
+    color: #ff7424;
+}
+
 
 .service p{
   font-family: sans-serif;
