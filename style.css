@@ -351,9 +351,17 @@ span.stars,.stars-o{
   display: inline-block;
 }
 
+.book-btn a:hover{
+background-color: #fb9e33;
+}
+
+
 span.fa-long-arrow-right{
   margin-left: 10px;
 }
+
+
+
 
 .book-btn p{
   font-size: 25px;
@@ -449,6 +457,11 @@ span.fa-long-arrow-right{
 .fa-long-arrow-right{
   background-color: #ff7424;
 }
+
+.fa-long-arrow-right:hover{
+  background-color: #fb9e33;
+}
+
 /* testi section end  */
 
 /* photo section start  */
