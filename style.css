@@ -519,16 +519,20 @@ animation: arrow 1s 2;
 }
 
 .testi-section img:hover{
-  width: 77%;
+  
   cursor: pointer;
-   border: #EAEAEA;
-    box-shadow: 5px 5px 10px #888888;
+ animation: imgtes 3s 4;
+  
+    z-index: 1;
   
 }
 
-
-
-
+@keyframes imgtes{
+  to{
+  border: #EAEAEA;
+    box-shadow: 5px 5px 10px #888888;
+  }
+}
 
 .testi-section{
   margin-top: 100px;
