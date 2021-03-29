@@ -223,6 +223,7 @@ input {
   align-items: center;
   cursor: pointer;
   box-shadow: 0 1px rgb(172, 66, 47);
+  border: none;
 }
 
 .btn_search:hover{
