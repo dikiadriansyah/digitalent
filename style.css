@@ -184,6 +184,11 @@ a {
   border-radius: 10px;
   cursor: pointer;
 }
+
+.btn:hover{
+  background-color: #fb9e33;
+}
+
 .header {
   width: 460px;
   height: 200px;
@@ -193,9 +198,8 @@ a {
   text-align: justify;
   line-height: 75px;
   margin: 70px;
-  animation: mytxtheader 10s 1;
+animation: mytxtheader 10s 1;
 }
-
 
 @keyframes mytxtheader{
   from{
@@ -206,6 +210,7 @@ a {
   }
 }
 
+
 .box_header {
   width: 71%;
   height: 60px;
@@ -215,21 +220,8 @@ a {
   display: flex;
   padding: 10px;
   
-  animation: myborder 10s 1;
-  animation-fill-mode: forwards;
-  position: relative;
-  
 }
 
-
-@keyframes myborder{
-  from{
-    top: 0px;
-  }
-  to{
-    top: 30px;
-  }
-}
 
 .box_header > .column1 {
   margin: 0px 10px;
@@ -254,15 +246,15 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer; 
+  cursor: pointer;
+  
   border: none;
 }
 
 .btn_search:hover{
 background-color: #fb9e33;
-  box-shadow: 0 3px rgb(172, 66, 47);
+box-shadow: 0 3px rgb(172, 66, 47);
 }
-
 
 .btn_search:active {
   box-shadow: none;
@@ -291,7 +283,7 @@ background-color: #fb9e33;
   margin-bottom: 100px;
 }
 .container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 .container:after{
@@ -353,9 +345,23 @@ span.stars:hover{
   animation: mymove 2s infinite;
 }
 
+span.stars-o:hover{
+  animation: mystar 2s infinite;
+}
+
+
+
 @keyframes mymove{
   from{
   color: #000;
+  }
+}
+
+
+
+@keyframes mystar{
+  from{
+  color: #ff7424;
   }
 }
 
@@ -364,17 +370,6 @@ span.stars-o{
   font-size: 15px;
   margin-right: 30px;
 }
-
-span.stars-o:hover{
-  animation: mystar 2s infinite;
-}
-
-@keyframes mystar{
-  from{
-  color: #ff7424;
-  }
-}
-
 
 span.stars,.stars-o{
   margin-bottom: 40px;
@@ -399,11 +394,9 @@ span.stars,.stars-o{
 background-color: #fb9e33;
 }
 
-
 span.fa-long-arrow-right{
   margin-left: 10px;
 }
-
 
 span.fa-long-arrow-right:hover{
   position: relative;
@@ -420,7 +413,6 @@ animation: arrow 1s 2;
   }
 
 }
-
 
 .book-btn p{
   font-size: 25px;
@@ -477,11 +469,11 @@ animation: arrow 1s 2;
   border-radius: 5px;
 }
 
-
 .testi-section img:hover{
   width: 77%;
   cursor: pointer;
 }
+
 
 .testi-section{
   margin-top: 100px;
@@ -545,10 +537,11 @@ animation: arrow 1s 2;
   border-radius: 5px;
 }
 
-
 .photo-section img:hover{
 width: 23%;
 height: 260px;
+display: flex;
+flex-direction: column;
 cursor: pointer;
 }
 
@@ -869,6 +862,10 @@ footer .footer-list li:hover {
     margin-left: 30px;
   }
 
+
+
+
+
   footer .col1,
   footer .col2 {
     width: 50%;
@@ -941,6 +938,7 @@ footer .footer-list li:hover {
     height: 700px;
   }
   header {
+    width: 100%;
     position: relative;
   }
   .header {
