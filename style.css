@@ -332,6 +332,17 @@ span.stars-o{
   margin-right: 30px;
 }
 
+span.stars-o:hover{
+  animation: mystar 2s infinite;
+}
+
+@keyframes mystar{
+  from{
+  color: #ff7424;
+  }
+}
+
+
 span.stars,.stars-o{
   margin-bottom: 40px;
 }
