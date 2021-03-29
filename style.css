@@ -479,6 +479,14 @@ span.fa-long-arrow-right{
   margin: 70px 10px;
   border-radius: 5px;
 }
+
+
+.photo-section img:hover{
+width: 25%;
+height: 260px;
+cursor: pointer;
+}
+
 /* photo section end  */
 
 /* bottom section start  */
