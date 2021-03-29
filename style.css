@@ -221,13 +221,13 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
-  box-shadow: 0 1px rgb(172, 66, 47);
+  cursor: pointer; 
   border: none;
 }
 
 .btn_search:hover{
 background-color: #fb9e33;
+  box-shadow: 0 3px rgb(172, 66, 47);
 }
 
 
