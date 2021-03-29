@@ -150,9 +150,7 @@ ul {
   list-style-type: none;
 }
 
-li :hover{
-  color: #fb9e33;
-}
+
 
 header .back_header .navbar .nav_head ul li {
   display: inline-block;
