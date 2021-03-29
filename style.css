@@ -246,21 +246,27 @@ input {
 /* -------------------------------------- */
 
 /* exclusive offer section start */
-.container{
-  width: 1170px;
-  margin: 0 auto;
-}
-
-.offer-section{
+.offer-section {
   margin-top: 130px;
   margin-bottom: 100px;
-  display: flex;
 }
-
-.offer-section img{
-  width: 30%;
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.col4 {
+  width: 50%;
   float: left;
-  margin-right: 50px;
+  padding-bottom: 5px;
+}
+.offer-section img,
+.testi-section img{
+  width: 70%;
   margin-left: 50px;
 }
 
@@ -289,7 +295,6 @@ input {
   margin-bottom: 20px;
   width: 75%;
   line-height: 25px;
-  height: 100px;
 }
 
 .rating{
@@ -340,7 +345,7 @@ span.fa-long-arrow-right{
   height: 50px;
   line-height: 50px;
   margin-left: 50px;
-}
+} 
 /* exclusive offer section end  */
 
 /* our service section start */
@@ -364,7 +369,6 @@ span.fa-long-arrow-right{
   width: 100%;
   height: 200px;
   margin: 30px 0;
-
 }
 
 .service h4{
@@ -386,10 +390,6 @@ span.fa-long-arrow-right{
 
 /* testi section start  */
 .testi-section img{
-  width: 30%;
-  float: left;
-  margin-right: 50px;
-  margin-left: 50px;
   border-radius: 5px;
 }
 
@@ -452,10 +452,6 @@ span.fa-long-arrow-right{
 /* photo section end  */
 
 /* bottom section start  */
-
-
-
-
 .section5{
   width: 700px;
   height: 200px;
@@ -466,8 +462,6 @@ span.fa-long-arrow-right{
  align-items: center;
  margin: 100px auto;
 }
-
-
 
 .txt_sign{
   font-size: 40px;
@@ -496,7 +490,7 @@ span.fa-long-arrow-right{
 .column_ikonemail{
   width: 40px;
   height: 30px;
-text-align: center;
+  text-align: center;
 
 }
 
@@ -507,8 +501,7 @@ text-align: center;
 .txt_inputemail{
   width: 70%;
   height: 25px;
-  border-radius: 0px 0px 5px 0px;
-  
+  border-radius: 0px 0px 5px 0px;  
 }
 
 .btn_email{
@@ -532,9 +525,6 @@ background-color: #EC0303;
 input{
   outline: none;
 }
-
-
-
 /* bottom section end  */
 
 /* style footer start */
@@ -584,8 +574,6 @@ footer .box-footer {
 footer .box-footer .text p{
   margin-left: 25px;
   font-weight: 300;
-  /* position: absolute;
-  top: -25px; */
 }
 footer .box-footer .email-box {
   padding-top: 10px;
@@ -646,7 +634,6 @@ footer .footer-left p {
 }
 footer .footer-right ul {
   float: right;
-  /* padding: 27.5px 0; */
 }
 footer .footer-right ul li {
   color: grey;
@@ -672,7 +659,36 @@ footer .footer-list li:hover {
   padding: 45px 10px;
   width: 25px;
 }
+@media (max-width: 1024px) {
+  /* exclusive offer section start */
+  .section-title{
+    width: 100%;
+  }
+  .section-title h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .desc{
+    width: 100%;
+  }
+  .rating{
+    font-size: 20px;
+  }
+  .testi-section p{
+    width: 100%;
+  }
+  .testi-wrap{
+    margin-top: 0px;
+  }  
+  .testi-bio, .testi-bio span{
+    margin-top: 10px;
+  }
+  .service{
+    margin-right: 0px;
+    padding: 0 10px;
+  }
 
+}
 @media (max-width: 1000px) {
   .nav_head {
     display: none;
@@ -711,7 +727,6 @@ footer .footer-list li:hover {
   .row_left {
     width: 60%;
     height: 500px;
-    /* margin-right: 10px; */
   }
 
   .row_right {
@@ -746,6 +761,10 @@ footer .footer-list li:hover {
     padding-top: 20px;
     margin: 0 auto;
   }
+  .offer-section img{
+    width: 80%;
+    margin-left: 30px;
+  }
 
   footer .col1,
   footer .col2 {
@@ -753,16 +772,57 @@ footer .footer-list li:hover {
     margin-bottom: 20px;
   }
   footer .footer-right ul {
-    /* text-align: center; */
     float: none;
     margin-left: -42px;
   }
   footer .footer-left p {
-    /* text-align: center; */
     float: none;
     padding: 5px 0;
   }
 }
+
+@media (max-width: 768px) {
+  .offer-section img,
+  .testi-section img{
+    width: 95%;
+    margin-left: 0px;
+  }
+  .section-title h2{
+    font-size: 16px;
+  }
+  .section-title h3{
+    font-size: 30px;
+  }
+  .rating{
+    font-size: 16px;
+  }
+  
+ .book-btn a{
+    font-family: sans-serif;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7424;
+    color: white;
+    display: inline-block;
+  }
+  
+  .book-btn p{
+    font-size: 16px;
+  } 
+
+  .service-section {
+    padding-left: 10px;
+  }
+  .service{
+    width: 100%;
+    margin-right: 0px;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
+
 @media (max-width: 670px) {
   .header {
     width: 100%;
@@ -770,9 +830,6 @@ footer .footer-list li:hover {
   .navbar {
     width: 100%;
   }
-  /* .footer-contact { 
-    display: block;
-  } */
   .header {
     font-size: 64px;
   }
@@ -796,11 +853,9 @@ footer .footer-list li:hover {
   }
   .box_header {
     position: absolute;
-
     height: 100px;
     margin-left: 30px;
-    padding-bottom: 90px;
-  
+    padding-bottom: 90px;  
     display: grid;
     grid-row-gap: 10px;
     width: 80%;
@@ -820,11 +875,7 @@ footer .footer-list li:hover {
   }
   .row-right {
     margin: 0 auto;
-  }
-  
-  
-  
-  
+  }    
   .section5{
   width: 100%;
   height: 300px;
@@ -838,33 +889,23 @@ footer .footer-list li:hover {
   text-align: center;
 }
 
-  
-  
-  
-  
-  /*
-  footer {
-    padding: 40px;
-  }
-  .container-footer {
-    flex-direction: column;
-    padding-right: 250px;
-  }
-  .footer-logo {
-    width: 100%;
-  }
-  .box-footer {
-    width: 100%;
-    text-align: center;
-  }
-  */
-  /* footer {
-  }
-  .container-footer {
-    flex-direction: column;
-    margin-right: 250px;
-    width: 100%;
-  } */
+.offer-section,
+.testi-section {
+  text-align: center;
+}
+.col4 {
+  width: 100%;
+}
+
+.book-btn{
+  justify-content: center;
+}
+
+.photo-section img{
+  width: 100%;
+  margin: 5px 10px;
+}
+
   footer .col1,
   footer .col2,
   footer .col3 {
@@ -882,12 +923,6 @@ footer .footer-list li:hover {
   footer .box-footer {
     justify-content: center;
   }
-  footer .box-footer.contact {
-    /* margin-bottom: 30px; */
-  }
-  footer .box-footer .icon {
-    /* margin-top: -20px; */
-  }
   footer .footer-logo,
   .footer-title.address {
     margin-bottom: 10px;
@@ -897,9 +932,6 @@ footer .footer-list li:hover {
   }
   footer .footer-right ul {
     padding: 0;
-  }
-  footer .footer-right ul li {
-    /* margin-left: 10px; */
   }
 }
 @media (max-width: 410px) {
